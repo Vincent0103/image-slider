@@ -7,10 +7,33 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Belanosima&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../src//style.css">
+  <link rel="stylesheet" href="../src/style.css">
   <script type="text/javascript" src="index.bundle.js"></script>
 </head>
 <body>
-
+  <div class="page-container">
+    <div class="slider-container">
+      <div class="slider-img-container not-current-slide-leftleft" data-id="1" id="img4"></div>
+      <div class="slider-img-container not-current-slide-left" data-id="2" id="img3"></div>
+      <div class="slider-img-container current-slide" data-id="3" id="img1"></div>
+      <div class="slider-img-container not-current-slide-right" data-id="4" id="img2"></div>
+      <div class="slider-img-container not-current-slide-rightright" data-id="5" id="img5"></div>
+      <div class="arrows-container">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M20,10V14H11L14.5,17.5L12.08,19.92L4.16,12L12.08,4.08L14.5,6.5L11,10H20Z" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M4,10V14H13L9.5,17.5L11.92,19.92L19.84,12L11.92,4.08L9.5,6.5L13,10H4Z" />
+        </svg>
+      </div>
+    </div>
+    <div class="imgs-dots-container">
+      <div class="dot-container" data-id="1"></div>
+      <div class="dot-container" data-id="2"></div>
+      <div class="dot-container btn-active" data-id="3"></div>
+      <div class="dot-container" data-id="4"></div>
+      <div class="dot-container" data-id="5"></div>
+    </div>
+  </div>
 </body>
 </html>
