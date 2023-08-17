@@ -1,9 +1,10 @@
 const path = require('path');
 
 module.exports = {
-  mode: 'development',
+  mode: 'production',
   entry: {
     index: './src/index.js',
+    handleSlider: './src/handleSlider.js',
   },
   output: {
     filename: '[name].bundle.js',
